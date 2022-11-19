@@ -24,5 +24,4 @@ resource "aws_iam_role" "test_role" {
 variable "role" {
   type = string
   default ="cloud_role_new"
-
 }
